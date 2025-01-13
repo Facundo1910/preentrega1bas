@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{ 
+   font-family: "Parkinsans", sans-serif; /* Declaro la fuente que voy a utilizar para el trabajo en la etiqueta html sacado desde google fonts*/
+    font-optical-sizing: auto;    
+}
+
+header{
+    background-image: url('/assets/pexels-canvastudio-3153207.jpg') ;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: end;
+}
+
+/*Este espacio es para la barra de navegación del header para dale esilo y aplicar propiedades para que aparezcan del lado derecho en vez del lado izquierdo*/
+.nav { 
+    margin: 30px;
+    font-weight:600;
+    
+    }
+div a{
+text-decoration: none;
+color: #4682B4;
+font-size: 22px;
+}
+div a:hover{
+    filter:opacity(1);
+    transform: scale(1.05);
+}
+
+.card:hover{
+    transform: scale(1.05);
+    transition: 1s;
+}
+
+.card-body .card-title{
+    color: #4682B4;
+}
+
+
+.contenedor-cv h2{
+    color: #4682B4;
+}
+
+.contenedor-cv .formulario-cv{
+    width: 50%;
+    margin-left: 300px;
+    margin-bottom: 40px;
+
+}
+
+footer{
+    margin-top: 30px;
+    background-color: #4682B4;
+    padding: 50px;
+    text-align: center;
+    margin: 0;
+}
+
+
+
+.logo-instagram{
+    width: 40px;
+    height: 40px;
+    background-image: url("https://c0.klipartz.com/pngpicture/388/82/gratis-png-daniel036-instagram-instagram-el-camaron-loco-inc-aurora-co-thumbnail.png");
+    background-position: center;
+    background-size:cover; 
+
+}
+
+.logo-facebook{
+    width: 40px;
+    height: 40px;
+    background-image: url("https://e7.pngegg.com/pngimages/543/873/png-clipart-white-facebook-logo-f-letter-social-media-icons.png");
+    background-position: center;
+    background-size:cover; 
+
+}
+.contenedor-logos{
+    justify-content: end;
+}
+
+.container-experiencias h2{
+    color: #4682B4;
+}

@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{ 
+   font-family: "Parkinsans", sans-serif; /* Declaro la fuente que voy a utilizar para el trabajo en la etiqueta html sacado desde google fonts*/
+    font-optical-sizing: auto;    
+}
+
+/*Este espacio es para la barra de navegación del header para dale esilo y aplicar propiedades para que aparezcan del lado derecho en vez del lado izquierdo*/
+.nav { 
+    margin: 30px;
+     font-weight:600
+    }
+div a{
+text-decoration: none;
+color:#5C6670;
+font-size: 20px;
+}
+div a:hover{
+    filter:opacity(1);
+    transform: scale(1.05);
+}
+/*Aca damos estilos,tamaños de fuentes y relleno a la imagen*/
+.img{
+    background-image:url("/assets/pexels-googledeepmind-18069363.jpg") ;
+    background-size: cover;
+    background-position: center; 
+    padding:350px;
+    color: white;
+    font-weight: bold
+    
+    
+}
+
+h1{ 
+    font-family: "Vesper Libre", serif;
+    font-weight: 900;
+    font-size:45px;
+}
+
+.parrafo-img{
+    font-size: 20px;
+    line-height:1.5;
+    word-spacing: 5px;
+}
+
+span{
+    font-family: "Vesper Libre", serif;
+    font-weight: 900;
+    font-style: normal;
+    color: #4682B4;
+
+}
+
+/* En esta parte de la landing empezamos a mostrar los distintos packs que ofrece la empresa de software */
+#services{
+    margin-top: 40px;
+    text-align: center;
+    color:#4682B4;
+    font-size: 40px;
+}
+
+.contenedor-planes{
+    display: flex;
+    gap: 100px;
+    text-align: center;
+    justify-content:center;
+}
+ 
+.planes{
+    background-color:#4682B4;
+    padding: 50px;
+    border-radius: 10px;
+    margin: 20px;
+    filter:opacity(0.7);
+    color:white;
+    font-weight: bolder;
+}
+
+.planes:hover{
+    filter:opacity(1);
+    transform: scale(1.05);
+}
+
+
+/*Esta parte es la parte del aboutUs*/
+.contenedor-about{
+    margin-top: 50px;
+    display: flex;
+    gap:90px;
+    color: #5C6670;
+}
+.img-about{
+    background-image: url(/assets/pexels-fauxels-3182750.jpg);
+    background-size:cover; 
+    padding:250px;
+    border-radius: 10px;
+    
+}
+
+.img-about:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+#aboutUs{
+    margin:50px;
+    margin-top: 120px;
+    text-align:center;
+    width: 66%;
+    font-size: 30px;
+}
+
+
+
+.btn{
+   font-weight: bolder;
+   padding:20px;
+   border-radius: 10px;
+}
+
+footer{
+    margin-top: 30px;
+    background-color: #4682B4;
+    padding: 50px;
+    text-align: center;
+    margin: 0;
+}
+
+
+
+.logo-instagram{
+    width: 40px;
+    height: 40px;
+    background-image: url("https://c0.klipartz.com/pngpicture/388/82/gratis-png-daniel036-instagram-instagram-el-camaron-loco-inc-aurora-co-thumbnail.png");
+    background-position: center;
+    background-size:cover; 
+
+}
+
+.logo-facebook{
+    width: 40px;
+    height: 40px;
+    background-image: url("https://e7.pngegg.com/pngimages/543/873/png-clipart-white-facebook-logo-f-letter-social-media-icons.png");
+    background-position: center;
+    background-size:cover; 
+
+}
+.contenedor-logos{
+    justify-content: end;
+}
